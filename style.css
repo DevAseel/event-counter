@@ -1,0 +1,40 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/* reset HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: url(img/bg.png);
+}
+/* style */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 100vh;
+  text-align: center;
+  text-transform: capitalize;
+}
+.counter__box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 40px;
+  width: 200px;
+  padding: 10px;
+}
+.counter__title {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0541a9;
+  background: none;
+}
+
+.counter__time {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  background: none;
+}
